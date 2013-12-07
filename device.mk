@@ -93,7 +93,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0 \
 	ro.telephony.default_network=9 \
-	telephony.lteOnGsmDevice=1
+	telephony.lteOnGsmDevice=1 \
+	ro.ril.def.preferred.network=9
 
 PRODUCT_PACKAGES += \
 	wpa_supplicant_overlay.conf \
