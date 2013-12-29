@@ -18,6 +18,9 @@ include device/lge/gproj-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH := device/lge/e975/include
 
+# Specify kernel gcc version to 4.7
+TARGET_GCC_VERSION_ARM := 4.7
+
 BOARD_KERNEL_CMDLINE := vmalloc=600M console=null lpj=67677 user_debug=31 msm_rtb.filter=0x0 ehci-hcd.park=3 coresight-etm.boot_enable=0 androidboot.hardware=geehrc
 TARGET_KERNEL_CONFIG := cyanogenmod_e975_defconfig
 
