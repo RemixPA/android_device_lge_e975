@@ -115,24 +115,6 @@
     },
     {
         "remote":       "github",
-        "repository":   "CyanogenMod/android_external_fsck_msdos",
-        "target_path":  "external/fsck_msdos",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_yaffs2",
-        "target_path":  "external/yaffs2",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_zlib",
-        "target_path":  "external/zlib",
-         "revision":    "cm-11.0"
-    },
-    {
-        "remote":       "github",
         "repository":   "CyanogenMod/android_external_e2fsprogs",
         "target_path":  "external/e2fsprogs",
          "revision":    "cm-11.0"
