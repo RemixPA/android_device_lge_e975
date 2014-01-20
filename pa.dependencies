@@ -18,6 +18,12 @@
         "revision": "cm-11.0"
     },
     {
+        "remote":       "cm",
+        "repository":   "CyanogenMod/android_hardware_ti_wlan",
+        "target_path":  "hardware/ti/wlan",
+        "revision":     "cm-11.0"
+    },
+    {
         "remote": "cm",
         "repository": "CyanogenMod/android_hardware_qcom_audio",
         "target_path": "hardware/qcom/audio",
@@ -100,6 +106,48 @@
         "repository": "CyanogenMod/android_hardware_qcom_audio-caf",
         "target_path": "hardware/qcom/audio-caf",
         "revision": "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_external_pigz",
+        "target_path":  "external/pigz",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_external_fsck_msdos",
+        "target_path":  "external/fsck_msdos",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_external_yaffs2",
+        "target_path":  "external/yaffs2",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_external_zlib",
+        "target_path":  "external/zlib",
+         "revision":    "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_external_e2fsprogs",
+        "target_path":  "external/e2fsprogs",
+         "revision":    "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/Superuser",
+        "target_path":  "external/koush/Superuser",
+         "revision":    "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/Widgets",
+        "target_path":  "external/koush/Widgets",
+         "revision":    "cm-11.0"
     },
     {
         "remote": "blobs",
