@@ -7,8 +7,8 @@
     },
     {
         "remote": "github",
-        "repository": "RemixPA/android_device_lge_e975",
-        "target_path": "device/lge/e975",
+        "repository": "RemixPA/android_device_lge_geehrc",
+        "target_path": "device/lge/geehrc",
         "revision": "kk4.4"
     },
     {

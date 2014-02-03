@@ -16,7 +16,7 @@
 
 include device/lge/gproj-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/lge/e975/include
+TARGET_SPECIFIC_HEADER_PATH := device/lge/geehrc/include
 
 # Specify kernel gcc version to 4.7
 TARGET_GCC_VERSION_ARM := 4.7
@@ -28,9 +28,9 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
 
 TARGET_BOOTLOADER_BOARD_NAME := geehrc
-TARGET_BOOTLOADER_NAME=e975
+TARGET_BOOTLOADER_NAME=geehrc
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/e975/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/geehrc/bluetooth
 
 # FIXME: HOSTAPD-derived wifi driver
 BOARD_HAS_QCOM_WLAN := true
@@ -41,14 +41,14 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_RECOVERY_FSTAB = device/lge/e975/fstab.geehrc
+TARGET_RECOVERY_FSTAB = device/lge/geehrc/fstab.geehrc
 
 -include vendor/lge/e975/BoardConfigVendor.mk
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 BOARD_SEPOLICY_DIRS += \
-        device/lge/e975/sepolicy
+        device/lge/geehrc/sepolicy
 
 BOARD_SEPOLICY_UNION := \
         app.te \

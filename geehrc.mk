@@ -23,13 +23,13 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := full_e975
-PRODUCT_DEVICE := e975
+PRODUCT_NAME := full_geehrc
+PRODUCT_DEVICE := geehrc
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/e975/device.mk)
+$(call inherit-product, device/lge/geehrc/device.mk)
 $(call inherit-product-if-exists, vendor/lge/e975/e975-vendor.mk)
