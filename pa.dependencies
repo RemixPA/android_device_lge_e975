@@ -108,30 +108,6 @@
         "revision": "cm-11.0"
     },
     {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_pigz",
-        "target_path":  "external/pigz",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_e2fsprogs",
-        "target_path":  "external/e2fsprogs",
-         "revision":    "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/Superuser",
-        "target_path":  "external/koush/Superuser",
-         "revision":    "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/Widgets",
-        "target_path":  "external/koush/Widgets",
-         "revision":    "cm-11.0"
-    },
-    {
         "remote": "blobs",
         "repository": "proprietary_vendor_lge",
         "target_path": "vendor/lge",
