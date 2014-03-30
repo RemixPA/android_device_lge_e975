@@ -108,9 +108,9 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "blobs",
-        "repository": "proprietary_vendor_lge",
+        "remote": "github",
+        "repository": "RemixPA/vendor_lge",
         "target_path": "vendor/lge",
-        "revision": "cm-11.0"
+        "revision": "kk4.4"
     }
 ]
